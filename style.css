@@ -1,0 +1,152 @@
+body {
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    background-color:#63b6ff;
+    font-family: 'Montserrat', cursive, sans-serif;
+    font-weight: 400;
+    color: #1E1E1E;
+}
+
+.navbar-collapse.in {
+overflow: hidden;
+}
+
+ul.nav li a:link,
+ul.nav li a:visited {
+    font-size: 2.3em;
+    color: #f95f00;
+    font-weight: 600;
+    padding: 10px;
+}
+
+#home {
+    height: 100vh;
+    background: url(images/austin-prock-38611.jpg) center center no-repeat;
+    background-size: cover;
+    margin-top: 25px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Monofett', cursive;
+    color: white;
+    font-size: 9.5em;
+    
+}
+
+#bio {
+    background-color: #DCDCDC;
+    padding: 30px;
+}
+
+h3 {
+    font-size: 2.8em;
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: 700;
+    text-align: center;
+}
+
+p {
+    font-size: 2em;
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.bands, .titles {
+    font-weight: 600;
+}
+
+.titles {
+    color: #0342aa;
+}
+
+#albums {
+    padding: 20px;
+}
+
+#albums img {
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+#albums h3 {
+    color: #0342aa;
+}
+
+#albums>h3 small, #live p, .info p {
+    color: #DCDCDC;
+}
+
+ol li {
+    font-size: 2em;
+    text-transform: capitalize;
+}
+
+.album {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+#live {
+    background-color: #040100;
+    padding: 20px;
+}
+
+#live img {
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+#live h3, .date, .info h3, .email {
+    color: #f95f00;
+}
+
+.place {
+    font-weight: 600;
+}
+
+#contact {
+    height: 100%;
+    background: url(images/contact.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.info {
+    width: 70%;
+    padding: 50px;
+}
+
+.info a:link, 
+.info a:visited {
+    color: #f95f00;
+    text-decoration: underline;
+}
+
+.info a:hover {
+    text-decoration: none;
+    color: #DCDCDC;
+}
+
+/* Media Queries */
+
+@media all and (max-width: 760px) { /* screen size until 500px */
+    body {
+        font-size: 80%; /* 0.8x default size */
+        }
+    
+    .cover {
+        margin-bottom: 30px;
+    }
+    
+    }
