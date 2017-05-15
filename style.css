@@ -141,8 +141,12 @@ ol li {
 
 @media all and (max-width: 500px) { /* screen size until 500px */
     body {
-        font-size: 75%;
+        font-size: 70%;
         }
+    
+    h1 {
+        font-size: 7em;
+    }
     
     p {
         width: 80%;
