@@ -35,7 +35,7 @@ h1 {
     text-align: center;
     font-family: 'Monofett', cursive;
     color: white;
-    font-size: 9.5em;
+    font-size: 9em;
     
 }
 
@@ -124,7 +124,7 @@ ol li {
 
 .info {
     width: 70%;
-    padding: 50px;
+    padding: 16px;
 }
 
 .info a:link, 
