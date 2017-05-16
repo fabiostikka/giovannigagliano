@@ -32,10 +32,13 @@ ul.nav li a:visited {
 }
 
 h1 {
-    text-align: center;
-    font-family: 'Monofett', cursive;
-    color: white;
-    font-size: 9em;
+    text-align: left;
+    font-family: 'Frijole', cursive;
+    color: #63b6ff;
+    font-size: 8em;
+    text-shadow: 3px 3px 3px black;
+    padding-top: 3%;
+    padding-left: 10%;
     
 }
 
@@ -139,13 +142,15 @@ ol li {
 
 /* Media Queries */
 
-@media all and (max-width: 500px) { /* screen size until 500px */
+@media all and (max-width: 700px) { /* screen size until 500px */
     body {
         font-size: 70%;
         }
     
     h1 {
-        font-size: 7em;
+        font-size: 5.8em;
+        text-align: center;
+        padding: 0;
     }
     
     p {
