@@ -35,7 +35,7 @@ h1 {
     text-align: left;
     font-family: 'Frijole', cursive;
     color: #63b6ff;
-    font-size: 8em;
+    font-size: 9em;
     text-shadow: 3px 3px 3px black;
     padding-top: 3%;
     padding-left: 10%;
@@ -101,7 +101,7 @@ ol li {
 }
 
 #live img {
-    margin: 30px 0 auto;
+    margin: 30px auto;
 }
 
 #live h3, .date, .info h3, .email {
